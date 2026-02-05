@@ -3,7 +3,6 @@ import { HashRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { SettingsModal } from './components/SettingsModal';
 import { StatsView } from './components/StatsView';
 import { getDailyPortion, formatDate } from './utils/calculator';
-import { AppRoute } from './types';
 
 function Layout() {
     const location = useLocation();
